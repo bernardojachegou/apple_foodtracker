@@ -110,16 +110,26 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="New Meal" id="iRh-fh-gcN">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="4vC-nm-MQo"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="tPT-3w-rMc"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="4vC-nm-MQo">
+                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="Hsj-CG-UTL"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="tPT-3w-rMc">
+                            <connections>
+                                <segue destination="rZV-za-OIa" kind="unwind" unwindAction="unwindToMealListWithSender:" id="AoH-Lb-imY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="nameTextField" destination="HNv-c8-hXe" id="pdx-J1-hv7"/>
                         <outlet property="photoImageView" destination="IZ6-Li-uNS" id="2ce-jn-J8g"/>
                         <outlet property="ratingControl" destination="6zE-gK-PEp" id="nGD-Cj-xyB"/>
+                        <outlet property="saveButton" destination="tPT-3w-rMc" id="CRY-9f-qNp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="rZV-za-OIa" userLabel="Exit" sceneMemberID="exit"/>
                 <tapGestureRecognizer id="HUq-vg-ykG">
                     <connections>
                         <action selector="selectImageFromPhotoLibrary:" destination="BYZ-38-t0r" id="9Jk-Sz-akT"/>

@@ -107,17 +107,13 @@
 		995E5883261B2FF10073B405 /* FoodTracker */ = {
 			isa = PBXGroup;
 			children = (
-				995E5884261B2FF10073B405 /* AppDelegate.swift */,
-				995E5886261B2FF10073B405 /* SceneDelegate.swift */,
-				995E5888261B2FF10073B405 /* MealViewController.swift */,
-				99675F87261CB28600228C04 /* Meal.swift */,
-				995E58B7261BA0B50073B405 /* RatingControl.swift */,
-				995E588A261B2FF10073B405 /* Main.storyboard */,
-				99E0A89B261D040D000E8CD2 /* MealTableViewCell.swift */,
-				99E0A8A0261D128A000E8CD2 /* MealTableViewController.swift */,
+				99633FAD2624E992004D5E27 /* Model */,
+				99633FAC2624E97C004D5E27 /* View */,
+				99633FA82624E903004D5E27 /* Controller */,
+				99633FA12624E8C3004D5E27 /* Suporting FIles */,
 				995E588D261B2FF20073B405 /* Assets.xcassets */,
-				995E588F261B2FF20073B405 /* LaunchScreen.storyboard */,
 				995E5892261B2FF20073B405 /* Info.plist */,
+				995E588A261B2FF10073B405 /* Main.storyboard */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -138,6 +134,42 @@
 				995E58A8261B2FF30073B405 /* Info.plist */,
 			);
 			path = FoodTrackerUITests;
+			sourceTree = "<group>";
+		};
+		99633FA12624E8C3004D5E27 /* Suporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				995E5884261B2FF10073B405 /* AppDelegate.swift */,
+				995E5886261B2FF10073B405 /* SceneDelegate.swift */,
+				995E588F261B2FF20073B405 /* LaunchScreen.storyboard */,
+			);
+			path = "Suporting FIles";
+			sourceTree = "<group>";
+		};
+		99633FA82624E903004D5E27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				995E5888261B2FF10073B405 /* MealViewController.swift */,
+				99E0A8A0261D128A000E8CD2 /* MealTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99633FAC2624E97C004D5E27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				995E58B7261BA0B50073B405 /* RatingControl.swift */,
+				99E0A89B261D040D000E8CD2 /* MealTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99633FAD2624E992004D5E27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99675F87261CB28600228C04 /* Meal.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

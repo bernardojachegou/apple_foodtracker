@@ -94,7 +94,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="F7t-OD-CbM">
-                                <rect key="frame" x="20" y="108" width="335" height="420"/>
+                                <rect key="frame" x="20" y="108" width="335" height="430"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the meal name" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="HNv-c8-hXe">
                                         <rect key="frame" x="0.0" y="0.0" width="335" height="44"/>
@@ -116,16 +116,16 @@
                                         </connections>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P41-kb-iBp">
-                                        <rect key="frame" x="0.0" y="380" width="335" height="40"/>
+                                        <rect key="frame" x="0.0" y="380" width="335" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating:" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKA-eo-JN9">
-                                                <rect key="frame" x="0.0" y="0.0" width="95" height="40"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="66.333333333333329" height="50"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6zE-gK-PEp" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                                <rect key="frame" x="103" y="0.0" width="232" height="40"/>
+                                                <rect key="frame" x="74.333333333333343" y="0.0" width="260.66666666666663" height="50"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="size" keyPath="starSize">
